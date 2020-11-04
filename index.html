@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <title>Лабораторная 3.2</title>
+</head>
+
+<body>
+    <form action="#">
+        <h1 class="title">Cookie</h1>
+        <p class="hello">Привет, друг!</p>
+        <p class="visit">Количество посещений этой страницы: 0</p>
+        <p class="when">
+            Вы были на этой странице: 0 часов, 0 минут, 0 секунд назад
+        </p>
+        <p class="enter_name">
+            Введите имя:&nbsp;
+            <input type="textbox" value="" onChange="setCookie('Myname', value)" />
+        </p>
+        <input type="button" value="Зарегистрироваться" /> <br />
+        <input type="button" value="Обнулить посещения" />
+    </form>
+</body>
+
+</html>

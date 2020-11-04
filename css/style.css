@@ -1,0 +1,78 @@
+form {
+    width: 700px;
+    height: 400px;
+    background-color: rgb(238, 232, 170);
+    position: absolute;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; */
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-left: 30px;
+}
+
+.title {
+    font-size: 64px;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
+.hello {
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.visit {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.when {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.enter_name {
+    font-size: 18px;
+}
+
+input[type="button"] {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+input[type="button"]:focus {
+    outline: none;
+}
+
+input[type="button"]:active {
+    background-color: rgb(184, 184, 184);
+    color: rgb(24, 24, 24);
+}
+
+input[type="textbox"] {
+    border: 2px inset gray;
+}
+
+input[type="textbox"]:focus {
+    outline: none;
+}
