@@ -1,16 +1,15 @@
 function setCookie(name, value) {
-    // var today = new Date();
-    // var expire = new Date();
-    // alert(name + "=" + escape(value) + "; expires=" + expire.toGMTString());
-    // expire.setTime(today.getTime() + 1000 * 60 * 60 * 24 * 365);
-    // alert(name + "=" + escape(value) + "; expires=" + expire.toGMTString());
-    // document.cookie =
-    //     name +
-    //     "=" +
-    //     escape(value) +
-    //     (expire == null ? "" : "; expires=" + expire.toGMTString());
-    alert(name + "=" + escape(value));
-    document.cookie = name + "=" + escape(value);
+    var today = new Date();
+    var expire = new Date();
+    alert(name + "=" + escape(value) + "; expires=" + expire.toGMTString());
+    expire.setTime(today.getTime() + 1000 * 60 * 60 * 24 * 365);
+    alert(name + "=" + escape(value) + "; expires=" + expire.toGMTString());
+    document.cookie =
+        name +
+        "=" +
+        escape(value) +
+        (expire == null ? "" : "; expires=" + expire.toGMTString());
+    alert(expire.toGMTString());
     alert(document.cookie);
 }
 
